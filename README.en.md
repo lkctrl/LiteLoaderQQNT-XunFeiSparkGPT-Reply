@@ -8,7 +8,7 @@ Currently features **right-click reply** and **in-message box reply**.
 
 Supports **custom api base url**, **custom system prompts** and **model number selection**.
 
-Note: OpenAI GPT models are not free, usage will incur charges as per the official pricing.
+Note: XunFei Spark models(except Spark Lite) are not free, usage will incur charges as per the official pricing.
 
 ## Feature Showcase
 
@@ -27,7 +27,7 @@ Ensure you have LiteLoaderQQNT installed and functioning properly.
 ## Usage Instructions
 
 -   Two methods to set the OpenAI API key. Numerous online tutorials available: [Official Tutorial](https://platform.openai.com/docs/quickstart/step-2-set-up-your-api-key)
-    1. Set the system environment variable `OPENAI_API_KEY`. The API key in the settings can be left blank (recommended).
+    1. ~~Set the system environment variable `Spark_API_KEY`. The API key in the settings can be left blank (recommended).~~**(Not support for now)**
     2. Copy the API key into the plugin settings, then restart.
 -   Define how you want GPT to respond in the `System Prompt` settings.
 -   Right-click a message and select `GPT` to reply, or enter a prompt in the message box and click the GPT icon.
@@ -35,4 +35,5 @@ Ensure you have LiteLoaderQQNT installed and functioning properly.
 ## Acknowledgements
 
 -   [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/)
+-   Original repo [LiteLoaderQQNT-GPT-Reply](https://github.com/wangyz1999/LiteLoaderQQNT-GPT-Reply)
 -   UI reference [LiteLoaderQQNT-DeepL](https://github.com/MUKAPP/LiteLoaderQQNT-DeepL/tree/main)
