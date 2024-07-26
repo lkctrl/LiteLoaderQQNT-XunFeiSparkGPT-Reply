@@ -1,15 +1,20 @@
 {
     "manifest_version": 4,
     "type": "extension",
-    "name": "GPT-Reply",
-    "slug": "gpt_reply",
-    "description": "在 QQNT 直接使用ChatGPT进行回复",
-    "version": "v1.0.4",
-    "thumb": "./res/openai.svg",
+    "name": "Spark-Reply",
+    "slug": "spark_reply",
+    "description": "在 QQNT 直接使用星火语言模型进行回复",
+    "version": "v1.0.0",
+    "thumb": "./res/Xunfei_black.svg",
     "icon": "./res/chatgpt-icon.webp",
-    "authors": [{
-        "name": "wangyz1999",
-        "link": "https://github.com/wangyz1999"
+    "authors": [
+        {
+            "name": "wangyz1999",
+            "link": "https://github.com/wangyz1999"
+        },
+        {
+        "name": "lkctrl",
+        "link": "https://github.com/lkctrl"
     }],
     "platform": ["win32", "linux", "darwin"],
     "injects": {
@@ -18,11 +23,11 @@
         "preload": "./src/preload.js"
     },
     "repository": {
-        "repo": "wangyz1999/LiteLoaderQQNT-GPT-Reply",
+        "repo": "lkctrl/LiteLoaderQQNT-XunFeiSparkGPT-Reply",
         "branch": "main",
         "release": {
-            "tag": "v1.0.4",
-            "file": "LiteLoaderQQNT-GPT-Reply.zip"
+            "tag": "v1.0.0",
+            "file": "LiteLoaderQQNT-Spark-Reply.zip"
         }
     }
 }
