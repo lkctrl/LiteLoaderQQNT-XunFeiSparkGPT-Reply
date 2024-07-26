@@ -36,4 +36,5 @@
 ## 鸣谢
 
 -   [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/)
+-   插件原仓库[LiteLoaderQQNT-GPT-Reply](https://github.com/wangyz1999/LiteLoaderQQNT-GPT-Reply)
 -   UI 参考[LiteLoaderQQNT-DeepL](https://github.com/MUKAPP/LiteLoaderQQNT-DeepL/tree/main)
